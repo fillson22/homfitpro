@@ -13,7 +13,7 @@ gem "sprockets-rails"
 gem "pg", "~> 1.1"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem 'puma', "~> 3.10.0"
+gem 'puma', "~> 4.0.0"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
@@ -65,7 +65,7 @@ group :development do
   gem "web-console"
 
   gem 'capistrano'
-  gem 'capistrano3-puma'
+  gem 'capistrano3-puma', '~> 5.2.0'
   gem 'capistrano-rails', require: false
   gem 'capistrano-bundler', require: false
   gem 'capistrano-rvm'
